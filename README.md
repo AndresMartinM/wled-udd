@@ -55,6 +55,7 @@ A continuación se explica el armado del dispositivo.
 acá explicar las conexiones del dispositivo
 
 ## Proceso de Configuración
+### Pantalla Principal
 Al ingresar en la interfaz de wled lo primero que aparece en la parte superior se encuentran los siguientes botones:
 * Power (para encender y apagar la luz del dispositivo)
 * Timer (para encender y apagar el cambio de estado programado)
@@ -71,6 +72,7 @@ La sección ***Segments*** permite configurar distintos comportamientos a seccio
 
 Finalmente está la sección ***Presets***, en la que se pueden guardar configuraciones que se quieran usar en el futuro, ya sea seleccionandolas manualmente o de manera automatizada, cada preset se guarda con un **Nombre** y un **ID**, este último será de mucha utilidad a la hora de asignar comportamientos automatizados. Cada preset se puede editar luego marcando la casilla ***Overwrite with state*** cambiando los parámetros y luego presionando ***Save*** en la pestaña del preset.
 
+### Menú de Configuración
 Eso es lo que hay en la pestaña principal, ahora lo recomendable tras conocer la interfaz de control es ir a las configuraciones en **Config**, al presionar el botón se despliega un menú con diferentes opciones:
 * Back (para volver a la pestaña principal)
 * WiFi Setup (para las opciones de red)
