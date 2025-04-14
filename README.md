@@ -49,6 +49,7 @@ Luego mostrará el porcentaje de la instalación, se debe esperar en la página 
 </div>
 
 Por último, teniendo instalado el software y configurada la red se puede acceder a la interfaz de WLED, cuyo uso se explica en el **Proceso de Configuración**.
+A continuación se explica el armado del dispositivo.
 
 ## Proceso de Construcción
 acá explicar las conexiones del dispositivo
