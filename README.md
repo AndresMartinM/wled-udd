@@ -43,8 +43,10 @@ Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que
 
 Luego mostrará el porcentaje de la instalación, se debe esperar en la página que ocurra este proceso, y al final aparece el mensaje de instalación completa; se presiona ***Next*** y a continuación se debe realizar la configuración de red, se selecciona el nombre de la red o se escribe si no aparece, y se ingresa la contraseña.
 
+<div style="display: inline-block;">
 <img title="seleccionarRed" alt="pestaña de selección de red" src="/img/seleccionarRed.png" width="300px">
 <img title="instalado" alt="pestaña tras la instalación" src="/img/instalado.png" width="300px">
+</div>
 
 ## Proceso de Construcción
 acá explicar las conexiones del dispositivo
