@@ -55,4 +55,28 @@ A continuación se explica el armado del dispositivo.
 acá explicar las conexiones del dispositivo
 
 ## Proceso de Configuración
-acá explicar la configuración de la app
+Al ingresar en la interfaz de wled lo primero que aparece en la parte superior se encuentran los siguientes botones:
+* Power (para encender y apagar la luz del dispositivo)
+* Timer (para encender y apagar el cambio de estado programado)
+* Sync (para sincronizar otros dispositivos con este)
+* Peek TODO qué hace peek?
+* Info (para ver los datos del dispositivo)
+* Config (para configurar luces, sensores, comportamientos, etc)
+
+Bajo esto hay un *slider* para asignar el brillo y la sección para escoger el color (***Colors***) que consta de una rueda de color, 2 *sliders*, 10 muestras, y un botón para escoger un color al azar; además está la opción de escoger paletas de color en forma de gradientes.
+
+También está la sección ***Effects***, con más de 100 distintos efectos de luz que se pueden escoger. Cada uno de los cuáles se puede configurar mediante distintos parámetros controlados por *sliders* ubicados en la parte inferior.
+
+La sección ***Segments*** permite configurar distintos comportamientos a secciones de la tira led.
+
+Finalmente está la sección ***Presets***, en la que se pueden guardar configuraciones que se quieran usar en el futuro, ya sea seleccionandolas manualmente o de manera automatizada, cada preset se guarda con un **Nombre** y un **ID**, este último será de mucha utilidad a la hora de asignar comportamientos automatizados. Cada preset se puede editar luego marcando la casilla ***Overwrite with state*** cambiando los parámetros y luego presionando ***Save*** en la pestaña del preset.
+
+Eso es lo que hay en la pestaña principal, ahora lo recomendable tras conocer la interfaz de control es ir a las configuraciones en **Config**, al presionar el botón se despliega un menú con diferentes opciones:
+* Back (para volver a la pestaña principal)
+* WiFi Setup (para las opciones de red)
+* LED Preferences (para las opciones de las tiras y sus comportamientos)
+* 2D Cofiguration (para configurar los LED como panel bidimensional)
+* User Interface (para personalizar la interfaz de la app)
+* Time & Macros (para configurar el reloj y comportamientos relacionados al tiempo)
+* Usermods (para activar y configurar acciones personalizadas, por ejemplo aquí está AudioReactive)
+* Security & Updates (para las opciones de seguridad)
