@@ -36,9 +36,8 @@ Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que
 <img title="installlLog" alt="opciones intall wled, log and console" src="/img/installLog.png" width="300px">
 <img title="confirm" alt="confirmar instalación" src="/img/confirmInstall.png" width="300px">
 <img title="preparando" alt="preparando instalación" src="/img/preparandoInstall.png" width="300px">
-
-<img title="" alt="" src="/img/" width="300px">
-<img title="" alt="" src="/img/" width="300px">
+<img title="instalando" alt="instalando el software" src="/img/instalando.png" width="300px">
+<img title="completa" alt="instalación completa" src="/img/completa.png" width="300px">
 
 
 
