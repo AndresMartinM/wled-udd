@@ -37,6 +37,8 @@ Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que
 <img title="confirm" alt="confirmar instalación" src="/img/confirmInstall.png" width="300px">
 <img title="preparando" alt="preparando instalación" src="/img/preparandoInstall.png" width="300px">
 
+<img title="" alt="" src="/img/" width="300px">
+<img title="" alt="" src="/img/" width="300px">
 
 
 
