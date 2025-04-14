@@ -18,7 +18,7 @@
 * Protoboard
 
 
-## Proceso de configuración
+## Proceso de Instalación
 Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa (https://install.wled.me/).
 
 Navegador no compatible:
@@ -33,3 +33,8 @@ Luego se selecciona la versión a instalar, y se presiona el botón ***Install**
 
 Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que dice *Connecting*, y aparecerá la opción ***Install WLED*** y ***Logs & Console***, la primera es para insalar wled en el Esp32, y el segundo para visualizar la información mandada por el Esp32 a travéz del puerto serial. Si se presiona ***Install WLED*** pedirá confirmar la acción, y si se confirma la página comenzará a preparar la instalación.
 
+## Proceso de Construcción
+acá explicar las conexiones del dispositivo
+
+## Proceso de Configuración
+acá explicar la configuración de la app
