@@ -6,7 +6,7 @@ Instructivo sobre la utilización de WLED
 
 * Esp32 devkit
 * Fuente de poder 5v
-* Tira led 5v compatible [listado de tiras compatibles](https://kno.wled.ge/basics/compatible-led-strips/)
+* Tira led 5v compatible ([listado de tiras compatibles](https://kno.wled.ge/basics/compatible-led-strips/))
 * Dispositivo de control (Celular o Computador)
 
 ### Materiales opcionales
@@ -19,7 +19,7 @@ Instructivo sobre la utilización de WLED
 
 
 ## Proceso de Instalación
-Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa [->instalador web<-](https://install.wled.me/).
+Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa ([instalador web](https://install.wled.me/)).
 
 Navegador no compatible:
 
@@ -58,7 +58,7 @@ La conexión entre la tira led y el Esp32 es mediante el cable de señal que deb
 
 Con eso ya se puede realizar el proceso de configuración.
 
-Si se quisieran añadir más elementos, como sensores de presencia, botones, u otros sensores se deben realizar lo siguiente, en lo que se revisará el uso de 3 tipos de sensores, en el caso de que se quiera usar un sensor distinto a los que se muestran aquí se recomienda el video de *ResinChem Tech* https://www.youtube.com/watch?v=1Qj1jJAam-8 (en este también estan los que se ven aquí).
+Si se quisieran añadir más elementos, como sensores de presencia, botones, u otros sensores se deben realizar lo siguiente, en lo que se revisará el uso de 3 tipos de sensores, en el caso de que se quiera usar un sensor distinto a los que se muestran aquí se recomienda el video de *ResinChem Tech* [*Level Up Your WLED Projects: A Guide to adding Components (no code)*](https://www.youtube.com/watch?v=1Qj1jJAam-8) (en este también estan los que se ven aquí).
 
 ## Proceso de Configuración
 ### Pantalla Principal
