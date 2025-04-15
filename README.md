@@ -6,7 +6,7 @@ Instructivo sobre la utilización de WLED
 
 * Esp32 devkit
 * Fuente de poder 5v
-* Tira led 5v compatible https://kno.wled.ge/basics/compatible-led-strips/
+* Tira led 5v compatible [listado de tiras compatibles](https://kno.wled.ge/basics/compatible-led-strips/)
 * Dispositivo de control (Celular o Computador)
 
 ### Materiales opcionales
