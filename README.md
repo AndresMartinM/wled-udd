@@ -60,6 +60,16 @@ Con eso ya se puede realizar el proceso de configuración.
 
 Si se quisieran añadir más elementos, como sensores de presencia, botones, u otros sensores se deben realizar lo siguiente, en lo que se revisará el uso de 3 tipos de sensores, en el caso de que se quiera usar un sensor distinto a los que se muestran aquí se recomienda el video de *ResinChem Tech* [*Level Up Your WLED Projects: A Guide to adding Components (no code)*](https://www.youtube.com/watch?v=1Qj1jJAam-8) (en este también estan los que se ven aquí).
 
+### Botón
+TODO
+
+### Sensor PIR
+TODO
+
+### Sensor de ruido
+TODO
+
+
 ## Proceso de Configuración
 ### Pantalla Principal
 Al ingresar en la interfaz de wled lo primero que aparece en la parte superior se encuentran los siguientes botones:
