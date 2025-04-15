@@ -33,7 +33,7 @@ Luego se selecciona la versión a instalar, y se presiona el botón ***Install**
 
 Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que dice *Connecting*, y aparecerá la opción ***Install WLED*** y ***Logs & Console***, la primera es para insalar wled en el Esp32, y el segundo para visualizar la información mandada por el Esp32 a travéz del puerto serial. Si se presiona ***Install WLED*** pedirá confirmar la acción, y si se confirma la página comenzará a preparar la instalación.
 
-<div style="display: inline-block;">
+<div alt="sección de imágenes" style="display: inline-block;">
 <img title="installLog" alt="opciones install wled, log and console" src="/img/installLog.png" height="200px">
 <img title="confirm" alt="confirmar instalación" src="/img/confirmInstall.png" height="200px">
 <img title="preparando" alt="preparando instalación" src="/img/preparandoInstall.png" height="200px">
@@ -41,12 +41,14 @@ Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que
 <img title="completa" alt="instalación completa" src="/img/completa.png" height="200px">
 </div>  
 
+
 Luego mostrará el porcentaje de la instalación, se debe esperar en la página que ocurra este proceso, y al final aparece el mensaje de instalación completa; se presiona ***Next*** y a continuación se debe realizar la configuración de red, se selecciona el nombre de la red o se escribe si no aparece, y se ingresa la contraseña.
 
-<div style="display: inline-block;">
+<div alt="sección de imágenes" style="display: inline-block;">
 <img title="seleccionarRed" alt="pestaña de selección de red" src="/img/seleccionarRed.png" height="200px">
 <img title="instalado" alt="pestaña tras la instalación" src="/img/instalado.png" height="200px">
 </div>
+
 
 Por último, teniendo instalado el software y configurada la red se puede acceder a la interfaz de WLED, cuyo uso se explica en el **Proceso de Configuración**.
 A continuación se explica el armado del dispositivo.
