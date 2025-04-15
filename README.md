@@ -52,7 +52,13 @@ Por último, teniendo instalado el software y configurada la red se puede accede
 A continuación se explica el armado del dispositivo.
 
 ## Proceso de Construcción
-Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión
+Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión; y en el caso de ser necesaria más corriente para alimentar las tiras led tambien se deben ver las conexiones de la fuente de poder, salidas de voltaje (v+ - 5v) y la tierra (gnd - ⏚) TODO revisar esto cuando tengamos fuentes de poder
+
+La conexión entre la tira led y el Esp32 es mediante el cable de señal que debe conectar la entrada digital (Din) de la tira led con uno de los pines de señal del Esp32 (D2, D3, D4... en adelante) esto luego se debe configurar en la interfaz de wled, 5v y GND de la tira deben ir conectados o al VIN y GND del Esp32 o a lo correspondiente en la fuente de poder.
+
+Con eso ya se puede realizar el proceso de configuración.
+
+Si se quisieran añadir más elementos, como sensores de presencia, botones, u otros sensores se deben realizar lo siguiente, en lo que se revisará el uso de 3 tipos de sensores, en el caso de que se quiera usar un sensor distinto a los que se muestran aquí se recomienda el video de *ResinChem Tech* https://www.youtube.com/watch?v=1Qj1jJAam-8 (en este también estan los que se ven aquí).
 
 ## Proceso de Configuración
 ### Pantalla Principal
