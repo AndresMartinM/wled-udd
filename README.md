@@ -19,7 +19,7 @@ Instructivo sobre la utilización de WLED
 
 
 ## Proceso de Instalación
-Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa (https://install.wled.me/).
+Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa [->instalador web<-](https://install.wled.me/).
 
 Navegador no compatible:
 
