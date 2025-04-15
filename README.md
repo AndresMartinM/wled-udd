@@ -13,6 +13,7 @@ Instructivo sobre la utilización de WLED
 
 * Sensor PIR
 * Botón
+* Modulo micrófono
 * Carcasa
 * Cables duPont
 * Protoboard
@@ -65,10 +66,11 @@ Si se quisieran añadir más elementos, como sensores de presencia, botones, u o
 Para esta etapa se recomienda usar **Cables *duPont*** y ***Protoboard***, ya que facilitan las conexiones.
 
 ### Botón
-TODO
+Se conecta un lado del botón a un pin de señal del Esp32 y el otro a la tierra.
+El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
 
 ### Sensor PIR
-TODO
+Se conecta el 
 
 ### Sensor de ruido
 TODO
