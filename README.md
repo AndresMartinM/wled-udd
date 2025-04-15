@@ -52,7 +52,7 @@ Por último, teniendo instalado el software y configurada la red se puede accede
 A continuación se explica el armado del dispositivo.
 
 ## Proceso de Construcción
-acá explicar las conexiones del dispositivo
+Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión
 
 ## Proceso de Configuración
 ### Pantalla Principal
