@@ -24,7 +24,7 @@ Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador 
 
 Navegador no compatible:
 
-![página de instalación en un navegador no compatible](/img/instalacionMal.png "instalacionMal"){ style="width : 600; display: block; margin: 0 auto; "}
+<img title="instalacionMal" alt="página de instalación en un navegador no compatible" src="/img/instalacionMal.png" style="width : 600px; display: block; margin: 0 auto; ">
 
 Navegador compatible:
 
