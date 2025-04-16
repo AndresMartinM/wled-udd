@@ -111,6 +111,10 @@ Lo primero a hacer en el menú es ir al ***WiFi Setup*** para habilitar un *Acce
 Entonces se entra al menú *WiFi Setup* se desliza hasta la sección ***Configure Access Point***, se escribe un nuevo nombre para la red (reconocible, distinto al de otras redes y otros dispositivos wled), se escribe un acontraseña o se deja vacía para dejar la red abierta, en el canal se deja el 1, y en ***AP opens*** se selecciona ***Always***. Con eso ya se debería poder acceder a la red, la cuál pedirá ingresar, lo que lleva a la interfaz de WLED.
 
 ### Configurar Tira LED
-TODO
+Para configurar la o las tiras led que se van a usar hay que ir a ***LED Preferences***, lo primero que aparece es la información general sobre como están ya configurados los LED.
+
+Después está la configuración de las tiras LED, en la que se puede escoger el modelo de tira LED con la que se está trabajando y según eso se despliegan opciones de configuración, en este caso se muestran las opciones de los modelos WS281X que son las siguientes: el orden de color de la señal digital (***Color Order***), el led desde el que va comenzar (***Start***, es automático), y la longitud de la tira contado en cantidad de LEDs (***Length***); también se debe escoger el pin de señal del Esp32 al que se está conectando (**GPIO**), si se quiere invertir o no el orden de los LEDs (***Reversed (rotated 180°)***), cuántos LEDs ignorar o no encender (***Skip first LEDs***), y el último es la opción de refrescar la tira con un apagado (***Off Refresh***).
+
+Tras estas opciones hay un ícono de cruz que sirve para añadir más tiras LED que se conecten a otros pines GPIO del Esp32, esta es una de las formas para añadir mas LED, puesto que también está la opción de conectar las tiras unas a otras (mientras sean del mismo tipo). Bueno, al presionar el botón para añadir más, surge una sección identica a la que se describió anteriormente.
 
 
