@@ -122,9 +122,22 @@ Después está la configuración de las tiras LED, en la que se puede escoger el
 
 Tras estas opciones hay un ícono de cruz que sirve para añadir más tiras LED que se conecten a otros pines GPIO del Esp32, esta es una de las formas para añadir mas LED, puesto que también está la opción de conectar las tiras unas a otras (mientras sean del mismo tipo). Bueno, al presionar el botón para añadir más, surge una sección identica a la que se describió anteriormente.
 
-<div alt="sección de imágenes" style="display: inline-block;">
 <img title="ledConfig1" alt="opciones de tiras led" src="/img/ledConfig1.png" width="600px">
-<img title="ledConfig2" alt="opciones de tiras led" src="/img/ledConfig2.png" height="400px">
-<img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" height="400px">
-</div>
+
+Un poco más abajo están las opciones de botones, esto permite configurar sensores digitales para que gatillen comportamientos en el sistema. Existe la posibilidad de usar hasta 4 de estos, desde el 0 al 3, para ello se debe escoger el pin de señal de cada sensor, y el tipo de sensor o de comportamiento de sensor:
+* *Pushbutton*
+* *Push inverted*
+* *Switch*
+* *PIR Sensor*
+* *Touch*
+* *Analog*
+* *Analog inverted*
+
+Luego hay una casilla para activar o desactivar el *pull-up/down* interno del Esp32, el que estando activado simplifica las conexiones del sensor; también se puede ajustar el umbral para detectar una pulsación; y se puede configurar el uso de un sensor infrarrojo para usar con un control remoto.
+
+<img title="ledConfig2" alt="opciones de tiras led" src="/img/ledConfig2.png" width="600px">
+
+Más abajo, casi al final están las configuraciones de transición y de temporizador, en la primera sección se pueden ajustar los tiempos y el tipo de transición al cambier de modos las luces, y en la otra sección se pueden realizar ajustes para el temporizador que se activa manualmente desde la interfaz de wled.
+
+<img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="600px">
 
