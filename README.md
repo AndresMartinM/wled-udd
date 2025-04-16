@@ -124,6 +124,8 @@ Tras estas opciones hay un ícono de cruz que sirve para añadir más tiras LED 
 
 <img title="ledConfig1" alt="opciones de tiras led" src="/img/ledConfig1.png" width="600px">
 
+#### LED Preferences - Botones
+
 Un poco más abajo están las opciones de botones, esto permite configurar sensores digitales para que gatillen comportamientos en el sistema. Existe la posibilidad de usar hasta 4 de estos, desde el 0 al 3, para ello se debe escoger el pin de señal de cada sensor, y el tipo de sensor o de comportamiento de sensor:
 * *Pushbutton*
 * *Push inverted*
