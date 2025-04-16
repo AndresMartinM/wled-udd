@@ -34,7 +34,7 @@ Luego se selecciona la versión a instalar, y se presiona el botón ***Install**
 
 Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que dice *Connecting*, y aparecerá la opción ***Install WLED*** y ***Logs & Console***, la primera es para insalar wled en el Esp32, y el segundo para visualizar la información mandada por el Esp32 a travéz del puerto serial. Si se presiona ***Install WLED*** pedirá confirmar la acción, y si se confirma la página comenzará a preparar la instalación.
 
-<div alt="sección de imágenes" style="display: inline-block;">
+<div alt="sección de imágenes" style="display: inline-block; margin : auto;">
 <img title="installLog" alt="opciones install wled, log and console" src="/img/installLog.png" height="200px">
 <img title="confirm" alt="confirmar instalación" src="/img/confirmInstall.png" height="200px">
 <img title="preparando" alt="preparando instalación" src="/img/preparandoInstall.png" height="200px">
