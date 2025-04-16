@@ -106,12 +106,12 @@ Eso es lo que hay en la pestaña principal, ahora lo recomendable tras conocer l
 * Time & Macros (para configurar el reloj y comportamientos relacionados al tiempo)
 * Usermods (para activar y configurar acciones personalizadas, por ejemplo aquí está AudioReactive)
 * Security & Updates (para las opciones de seguridad)
-<img title="menuWled" alt="menu de configuración" src="/img/menuWled.png" height="200px">
+<img title="menuWled" alt="menu de configuración" src="/img/menuWled.png" width="400px">
 
 ### Configurar Punto de Acceso
 Lo primero a hacer en el menú es ir al ***WiFi Setup*** para habilitar un *Access point* que permitirá prescindir de redes WiFi externas, y se podrá llevar el dispositivo a distintos lugares, sin la necesidad de conectarlo a una red. Por el contrario esto hará que el Esp32 genere una red a la que se puede acceder desde el celular o computador.
 
-<img title="redWled" alt="configuración de la red" src="/img/redWled.png" height="200px">
+<img title="redWled" alt="configuración de la red" src="/img/redWled.png" width="400px">
 
 Entonces se entra al menú *WiFi Setup* se desliza hasta la sección ***Configure Access Point***, se escribe un nuevo nombre para la red (reconocible, distinto al de otras redes y otros dispositivos wled), se escribe un acontraseña o se deja vacía para dejar la red abierta, en el canal se deja el 1, y en ***AP opens*** se selecciona ***Always***. Con eso ya se debería poder acceder a la red, la cuál pedirá ingresar, lo que lleva a la interfaz de WLED.
 
