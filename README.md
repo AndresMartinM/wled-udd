@@ -109,6 +109,7 @@ Eso es lo que hay en la pestaña principal, ahora lo recomendable tras conocer l
 <img title="menuWled" alt="menu de configuración" src="/img/menuWled.png" width="400px">
 
 ### Configurar Punto de Acceso
+#### WIFI Setup
 Lo primero a hacer en el menú es ir al ***WiFi Setup*** para habilitar un *Access point* que permitirá prescindir de redes WiFi externas, y se podrá llevar el dispositivo a distintos lugares, sin la necesidad de conectarlo a una red. Por el contrario esto hará que el Esp32 genere una red a la que se puede acceder desde el celular o computador.
 
 <img title="redWled" alt="configuración de la red" src="/img/redWled.png" width="600px">
@@ -118,6 +119,7 @@ Entonces se entra al menú *WiFi Setup* se desliza hasta la sección ***Configur
 ### Configurar Tira LED
 Para configurar la o las tiras led que se van a usar hay que ir a ***LED Preferences***, lo primero que aparece es la información general sobre como están ya configurados los LED.
 
+#### LED Preferences - Tiras LED
 Después está la configuración de las tiras LED, en la que se puede escoger el modelo de tira LED con la que se está trabajando y según eso se despliegan opciones de configuración, en este caso se muestran las opciones de los modelos WS281X que son las siguientes: el orden de color de la señal digital (***Color Order***), el led desde el que va comenzar (***Start***, es automático), y la longitud de la tira contado en cantidad de LEDs (***Length***); también se debe escoger el pin de señal del Esp32 al que se está conectando (**GPIO**), si se quiere invertir o no el orden de los LEDs (***Reversed (rotated 180°)***), cuántos LEDs ignorar o no encender (***Skip first LEDs***), y el último es la opción de refrescar la tira con un apagado (***Off Refresh***).
 
 Tras estas opciones hay un ícono de cruz que sirve para añadir más tiras LED que se conecten a otros pines GPIO del Esp32, esta es una de las formas para añadir mas LED, puesto que también está la opción de conectar las tiras unas a otras (mientras sean del mismo tipo). Bueno, al presionar el botón para añadir más, surge una sección identica a la que se describió anteriormente.
@@ -139,7 +141,20 @@ Luego hay una casilla para activar o desactivar el *pull-up/down* interno del Es
 
 <img title="ledConfig2" alt="opciones de tiras led" src="/img/ledConfig2.png" width="600px">
 
+#### LED Preferences - Transiciones y temporizador
 Más abajo, casi al final están las configuraciones de transición y de temporizador, en la primera sección se pueden ajustar los tiempos y el tipo de transición al cambier de modos las luces, y en la otra sección se pueden realizar ajustes para el temporizador que se activa manualmente desde la interfaz de wled.
 
 <img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="600px">
+
+### Configuración de acciones temporales
+#### Time & Macros - Opciones de uso horario
+
+
+#### Time & Macros - Reloj
+
+
+#### Time & Macros - Botones
+
+
+#### Time & Macros - Acciones programadas
 
