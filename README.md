@@ -61,7 +61,7 @@ Para armar este dispositivo, lo primero que hay que hacer es identificar los pin
 
 La conexión entre la tira led y el Esp32 es mediante el cable de señal que debe conectar la entrada digital (Din) de la tira led con uno de los pines de señal del Esp32 (D2, D3, D4... en adelante) esto luego se debe configurar en la interfaz de wled, 5v y GND de la tira deben ir conectados o al VIN y GND del Esp32 o a lo correspondiente en la fuente de poder.
 
-Con eso ya se puede realizar el proceso de configuración.
+Con eso ya se puede realizar el proceso de configuración, y se recomenda leer esa etapa antes de conectar otros elementos.
 
 Si se quisieran añadir más elementos, como sensores de presencia, botones, u otros sensores se deben realizar lo siguiente, en lo que se revisará el uso de 3 tipos de sensores, en el caso de que se quiera usar un sensor distinto a los que se muestran aquí se recomienda el video de *ResinChem Tech* [*Level Up Your WLED Projects: A Guide to adding Components (no code)*](https://www.youtube.com/watch?v=1Qj1jJAam-8) (en este también estan los que se ven aquí).
 
@@ -70,6 +70,7 @@ Para esta etapa se recomienda usar **Cables *duPont*** y ***Protoboard***, ya qu
 ### Botón
 Se conecta un lado del botón a un pin de señal del Esp32 y el otro a la tierra.
 El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
+-
 
 ### Sensor PIR
 Se conecta el 
