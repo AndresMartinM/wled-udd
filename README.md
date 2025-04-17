@@ -148,13 +148,13 @@ Más abajo, casi al final están las configuraciones de transición y de tempori
 
 ### Configuración de acciones temporales
 #### Time & Macros - Opciones de uso horario
-
+En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
 #### Time & Macros - Reloj
 
 
 #### Time & Macros - Botones
-
+Aquí se pueden configurar los comportamientos de las distintas interacciones con los 4 diferentes botones/sensores, 
 
 #### Time & Macros - Acciones programadas
 
