@@ -124,7 +124,7 @@ Después está la configuración de las tiras LED, en la que se puede escoger el
 
 Tras estas opciones hay un ícono de cruz que sirve para añadir más tiras LED que se conecten a otros pines GPIO del Esp32, esta es una de las formas para añadir mas LED, puesto que también está la opción de conectar las tiras unas a otras (mientras sean del mismo tipo). Bueno, al presionar el botón para añadir más, surge una sección identica a la que se describió anteriormente.
 
-<img title="ledConfig1" alt="opciones de tiras led" src="/img/ledConfig1.png" width="600px">
+<img title="ledConfig1" alt="opciones de tiras led" src="/img/ledConfig1.png" width="400px">
 
 #### LED Preferences - Botones
 
