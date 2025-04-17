@@ -11,9 +11,9 @@ Instructivo sobre la utilización de WLED
 
 ### Materiales opcionales
 
-* Sensor PIR
-* Botón
-* Modulo micrófono
+* Sensor PIR [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#sensor-pir)
+* Botón [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#bot%C3%B3n)
+* Modulo micrófono [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#sensor-de-ruido)
 * Carcasa
 * Cables duPont
 * Protoboard
