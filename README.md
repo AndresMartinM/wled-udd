@@ -139,34 +139,34 @@ Un poco más abajo están las opciones de botones, esto permite configurar senso
 
 Luego hay una casilla para activar o desactivar el *pull-up/down* interno del Esp32, el que estando activado simplifica las conexiones del sensor; también se puede ajustar el umbral para detectar una pulsación; y se puede configurar el uso de un sensor infrarrojo para usar con un control remoto.
 
-<img title="ledConfig2" alt="opciones de tiras led" src="/img/ledConfig2.png" width="600px">
+<img title="ledConfig2" alt="opciones de tiras led" src="/img/ledConfig2.png" width="400px">
 
 #### LED Preferences - Transiciones y temporizador
 Más abajo, casi al final están las configuraciones de transición y de temporizador, en la primera sección se pueden ajustar los tiempos y el tipo de transición al cambier de modos las luces, y en la otra sección se pueden realizar ajustes para el temporizador que se activa manualmente desde la interfaz de wled.
 
-<img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="600px">
+<img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="400px">
 
 ### Configuración de acciones temporales
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
-<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="600px">
+<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="400px">
 
 
 #### Time & Macros - Reloj
 
 
-<img title="timeClock" alt="opciones de reloj" src="/img/timeClock.png" width="600px">
+<img title="timeClock" alt="opciones de reloj" src="/img/timeClock.png" width="400px">
 
 
 #### Time & Macros - Botones
 Aquí se pueden configurar los comportamientos de las distintas interacciones con los 4 diferentes botones/sensores, 
 
-<img title="timeBoton" alt="opciones de comportamiento de los botones" src="/img/timeBoton.png" width="600px">
+<img title="timeBoton" alt="opciones de comportamiento de los botones" src="/img/timeBoton.png" width="400px">
 
 
 #### Time & Macros - Acciones programadas
 
 
-<img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="600px">
+<img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
