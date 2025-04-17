@@ -150,11 +150,23 @@ Más abajo, casi al final están las configuraciones de transición y de tempori
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
+<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="600px">
+
+
 #### Time & Macros - Reloj
+
+
+<img title="timeClock" alt="opciones de reloj" src="/img/timeClock.png" width="600px">
 
 
 #### Time & Macros - Botones
 Aquí se pueden configurar los comportamientos de las distintas interacciones con los 4 diferentes botones/sensores, 
 
+<img title="timeBoton" alt="opciones de comportamiento de los botones" src="/img/timeBoton.png" width="600px">
+
+
 #### Time & Macros - Acciones programadas
+
+
+<img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="600px">
 
