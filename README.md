@@ -70,7 +70,9 @@ Para esta etapa se recomienda usar **Cables *duPont*** y ***Protoboard***, ya qu
 ### Botón
 Se conecta un lado del botón a un pin de señal del Esp32 y el otro a la tierra.
 El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
--
+
+* configurar boton en LED Pref TODO
+* configurar boton el Time TODO
 
 ### Sensor PIR
 Se conecta el 
