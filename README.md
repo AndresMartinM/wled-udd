@@ -83,7 +83,7 @@ El resto es configurar el funcionamiento de este sensor, desde la interfaz de wl
 
 ### Sensor de ruido / micrófono
 Para hacer que el dispositivo funcione de manera reactiva al audio se recomienda usar micrófonos específicos ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), sin embargo para la prueba de esta funcionalidad se utilizó un módulo de micrófono para arduino del tipo KY-037, se espera en el futuro documentar el uso con el MAX4466 y el MAX9814. Continuando con el uso del KY-037, se conecta el **+** del sensor al VIN del Esp32 o a 5v de la fuente de poder; el G del sensor a GND del Esp32 o el GND de la fuente de poder; y se conecta la salida digital del KY-037 (DO) a un pin de señal del Esp32.
-Luego de ello se debe configurar el sensor desde el menú de ***Usermods***.[🔗]()
+Luego de ello se debe configurar el sensor desde el menú de ***Usermods***.[🔗](#usermods---audioreactive)
 
 
 
