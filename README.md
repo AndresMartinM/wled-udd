@@ -19,6 +19,7 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 * Cables duPont
 * Protoboard
 
+____________________
 
 ## Proceso de Instalación
 Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa ([instalador web](https://install.wled.me/)).
@@ -57,6 +58,8 @@ Luego mostrará el porcentaje de la instalación, se debe esperar en la página 
 Por último, teniendo instalado el software y configurada la red se puede acceder a la interfaz de WLED, cuyo uso se explica en el **Proceso de Configuración**.
 A continuación se explica el armado del dispositivo.
 
+___________________________________
+
 ## Proceso de Construcción
 Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión; y en el caso de ser necesaria más corriente para alimentar las tiras led tambien se deben ver las conexiones de la fuente de poder, salidas de voltaje (v+ - 5v) y la tierra (gnd - ⏚) TODO revisar esto cuando tengamos fuentes de poder
 
@@ -88,6 +91,7 @@ Luego de ello se debe configurar el sensor desde el menú de ***Usermods***[🔗
 
 Tras configurar el microfono en *Usermods* se puede probar el funcionamiento del dispositivo seleccionando un efecto que tenga el ícono ♪, se recomenda probar con *Pixels 🎨⋮♪*. El KY-037 al ser un micrófono de muy corto alcance para probar el funcionamiento del dispositvo habrá que soplarle o aplaudir para que ocurra algo.
 
+______________________________________
 
 ## Proceso de Configuración
 ### Pantalla Principal
