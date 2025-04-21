@@ -183,6 +183,8 @@ En esta sección se pueden dejar programadas acciones para que ocurran en una ho
 <img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
 ### Configurar Acciones Personalizadas
-
+Para configurar las acciones personalizadas hay que ir al menú de *Usermods*, entre esto están las configuraciones para la audio-reactividad.
 #### Usermods - Audioreactive
-TODO
+Si se quiere usar el micrófono, se debe activar la casilla ***Enabled***, además se habrá que seleccionar el pin al que se conectó el micrófono, en el caso de trabajar con el MAX4466 o el MAX9814 se recomienda seguir el instructivo de wled ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), que detalla las conexiones del circuito y la configuración; igualmente con esto basta para hacer funcionar el KY-037.
+
+<img title="audio" alt="opciones de audio reactive" src="/img/audio1.png" width="400px">
