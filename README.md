@@ -163,7 +163,7 @@ Para configurar acciones temporales hay que ir al menú de ***Time & Macros***.
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
-<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.jpeg" width="400px">
+<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="400px">
 
 <!--
 #### Time & Macros - Reloj
@@ -197,4 +197,4 @@ Si se quiere usar el micrófono, se debe activar la casilla ***Enabled***, adem�
 
 _________________________
 
-<img title="fotocircuito" alt="foto del dispositivo apagado" src="/img/circuito.png" style="width : 600px;">
+<img title="fotocircuito" alt="foto del dispositivo apagado" src="/img/circuito.jpeg" style="width : 600px;">
