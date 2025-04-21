@@ -13,7 +13,7 @@ Instructivo sobre la utilización de WLED
 
 * Sensor PIR [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#sensor-pir)
 * Botón [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#bot%C3%B3n)
-* Modulo micrófono [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#sensor-de-ruido)
+* Modulo micrófono [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#sensor-de-ruido--micr%C3%B3fono)
 * Carcasa
 * Cables duPont
 * Protoboard
@@ -82,7 +82,7 @@ El resto es configurar el funcionamiento de este sensor, desde la interfaz de wl
 * configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
 ### Sensor de ruido / micrófono
-TODO
+Para hacer que el dispositivo funcione de manera reactiva al audio se recomienda usar micrófonos específicos ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), sin embargo para la prueba de esta funcionalidad se utilizó un módulo de micrófono para arduino del tipo KY-037, se espera en el futuro documentar el uso con el MAX4466 y el MAX9814. Continuando con el uso del KY-037, se conecta el **+** del sensor al VIN del Esp32 o a 5v de la fuente de poder; el G del sensor a GND a 
 
 
 ## Proceso de Configuración
