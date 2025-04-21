@@ -71,18 +71,20 @@ Para esta etapa se recomienda usar **Cables *duPont*** y ***Protoboard***, ya qu
 Se conecta un lado del botón a un pin de señal del Esp32 y el otro a la tierra.
 El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
 
-* configurar las conexiones en *LED Preferences* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
-* configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
+* configurar las conexiones en *LED Preferences*. [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
+* configurar las funciones de interacción en *Time & Macros*. [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
 ### Sensor PIR
 Se conecta el GND del sensor a GND del Esp32 o de la fuente de poder, se conecta el VCC del sensor a VIN del Esp32 o a los 5v de la fuente de poder, y se conecta el OUT del sensor a un pin de señal del Esp32.
 El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
 
-* configurar las conexiones en *LED Preferences* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
-* configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
+* configurar las conexiones en *LED Preferences*. [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
+* configurar las funciones de interacción en *Time & Macros*. [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
 ### Sensor de ruido / micrófono
-Para hacer que el dispositivo funcione de manera reactiva al audio se recomienda usar micrófonos específicos ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), sin embargo para la prueba de esta funcionalidad se utilizó un módulo de micrófono para arduino del tipo KY-037, se espera en el futuro documentar el uso con el MAX4466 y el MAX9814. Continuando con el uso del KY-037, se conecta el **+** del sensor al VIN del Esp32 o a 5v de la fuente de poder; el G del sensor a GND a 
+Para hacer que el dispositivo funcione de manera reactiva al audio se recomienda usar micrófonos específicos ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), sin embargo para la prueba de esta funcionalidad se utilizó un módulo de micrófono para arduino del tipo KY-037, se espera en el futuro documentar el uso con el MAX4466 y el MAX9814. Continuando con el uso del KY-037, se conecta el **+** del sensor al VIN del Esp32 o a 5v de la fuente de poder; el G del sensor a GND del Esp32 o el GND de la fuente de poder; y se conecta la salida digital del KY-037 (DO) a un pin de señal del Esp32.
+Luego de ello se debe configurar el sensor desde el menú de ***Usermods***.[🔗]()
+
 
 
 ## Proceso de Configuración
