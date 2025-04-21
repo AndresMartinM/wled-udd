@@ -182,3 +182,7 @@ En esta sección se pueden dejar programadas acciones para que ocurran en una ho
 
 <img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
+### Configuración de acciones personalizadas
+
+#### Usermods - Audioreactive
+TODO
