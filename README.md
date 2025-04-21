@@ -202,3 +202,4 @@ Si se quiere usar el micr√≥fono, se debe activar la casilla ***Enabled***, adem√
 _________________________
 
 <img title="fotocircuito" alt="foto del dispositivo apagado" src="/img/circuito.jpeg" style="width : 600px;">
+>documentado por [AndresMartinM](https://github.com/AndresMartinM) 2025
