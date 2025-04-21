@@ -71,11 +71,15 @@ Para esta etapa se recomienda usar **Cables *duPont*** y ***Protoboard***, ya qu
 Se conecta un lado del botón a un pin de señal del Esp32 y el otro a la tierra.
 El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
 
-* configurar boton en LED Pref TODO
-* configurar boton el Time TODO
+* configurar las conexiones en *LED Preferences* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
+* configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
 ### Sensor PIR
-Se conecta el 
+Se conecta el GND del sensor a GND del Esp32 o de la fuente de poder, se conecta el VCC del sensor a VIN del Esp32 o a los 5v de la fuente de poder, y se conecta el OUT del sensor a un pin de señal del Esp32.
+El resto es configurar el funcionamiento de este sensor, desde la interfaz de wled.
+
+* configurar las conexiones en *LED Preferences* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
+* configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
 ### Sensor de ruido
 TODO
@@ -156,12 +160,12 @@ En esta sección se puede escoger el servidor desde el que se consulta la hora a
 <img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="400px">
 
 #### Time & Macros - Reloj
-
+TODO
 
 <img title="timeClock" alt="opciones de reloj" src="/img/timeClock.png" width="400px">
 
 #### Time & Macros - Macro
-
+TODO
 <img title="timeMacro" alt="opciones de macro" src="/img/timeMacro.png" width="400px">
 
 #### Time & Macros - Botones
@@ -170,7 +174,7 @@ Aquí se pueden configurar los comportamientos de las distintas interacciones co
 <img title="timeBoton" alt="opciones de comportamiento de los botones" src="/img/timeBoton.png" width="400px">
 
 #### Time & Macros - Acciones programadas
-
+TODO
 
 <img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
