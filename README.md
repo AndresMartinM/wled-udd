@@ -83,8 +83,9 @@ El resto es configurar el funcionamiento de este sensor, desde la interfaz de wl
 
 ### Sensor de ruido / micrófono
 Para hacer que el dispositivo funcione de manera reactiva al audio se recomienda usar micrófonos específicos ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), sin embargo para la prueba de esta funcionalidad se utilizó un módulo de micrófono para arduino del tipo KY-037, se espera en el futuro documentar el uso con el MAX4466 y el MAX9814. Continuando con el uso del KY-037, se conecta el **+** del sensor al VIN del Esp32 o a 5v de la fuente de poder; el G del sensor a GND del Esp32 o el GND de la fuente de poder; y se conecta la salida digital del KY-037 (DO) a un pin de señal del Esp32.
-Luego de ello se debe configurar el sensor desde el menú de ***Usermods***.[🔗](#usermods---audioreactive)
+Luego de ello se debe configurar el sensor desde el menú de ***Usermods***[🔗](#usermods---audioreactive).
 
+Tras configurar el microfono en *Usermods* se puede probar el funcionamiento del dispositivo seleccionando un efecto que tenga el ícono ♪, se recomenda probar con *Pixels 🎨⋮♪*. El KY-037 al ser un micrófono de muy corto alcance para probar el funcionamiento del dispositvo habrá que soplarle o aplaudir para que ocurra algo.
 
 
 ## Proceso de Configuración
@@ -156,6 +157,8 @@ Más abajo, casi al final están las configuraciones de transición y de tempori
 <img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="400px">
 
 ### Configurar Acciones Temporales
+Para configurar acciones temporales hay que ir al menú de ***Time & Macros***.
+
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
@@ -184,7 +187,8 @@ En esta sección se pueden dejar programadas acciones para que ocurran en una ho
 
 ### Configurar Acciones Personalizadas
 Para configurar las acciones personalizadas hay que ir al menú de *Usermods*, entre esto están las configuraciones para la audio-reactividad.
+
 #### Usermods - Audioreactive
-Si se quiere usar el micrófono, se debe activar la casilla ***Enabled***, además se habrá que seleccionar el pin al que se conectó el micrófono, en el caso de trabajar con el MAX4466 o el MAX9814 se recomienda seguir el instructivo de wled ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), que detalla las conexiones del circuito y la configuración; igualmente con esto basta para hacer funcionar el KY-037.
+Si se quiere usar el micrófono, se debe activar la casilla ***Enabled***, además se habrá que seleccionar el **pin** al que se conectó el micrófono y seleccionar *Generic Analog* en ***Type***; en el caso de trabajar con el MAX4466 o el MAX9814 se recomienda seguir el instructivo de wled ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), que detalla las conexiones del circuito y la configuración; igualmente con esto basta para hacer funcionar el KY-037.
 
 <img title="audio" alt="opciones de audio reactive" src="/img/audio1.png" width="400px">
