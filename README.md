@@ -1,6 +1,7 @@
 # Proyecto Iluminación WLED
+Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacios y objetos de la Universidad del Desarrollo.
 
-Instructivo sobre la utilización de WLED
+<img title="fotocircuitoOn" alt="foto del dispositivo encendido" src="/img/circuitoOn.png" style="width : 600px;">
 
 ### Materiales necesarios
 
@@ -192,3 +193,8 @@ Para configurar las acciones personalizadas hay que ir al menú de *Usermods*, e
 Si se quiere usar el micrófono, se debe activar la casilla ***Enabled***, además se habrá que seleccionar el **pin** al que se conectó el micrófono y seleccionar *Generic Analog* en ***Type***; en el caso de trabajar con el MAX4466 o el MAX9814 se recomienda seguir el instructivo de wled ([manual del *audioreactive*](https://kno.wled.ge/advanced/audio-reactive/)), que detalla las conexiones del circuito y la configuración; igualmente con esto basta para hacer funcionar el KY-037.
 
 <img title="audio" alt="opciones de audio reactive" src="/img/audio1.png" width="400px">
+
+
+_________________________
+
+<img title="fotocircuito" alt="foto del dispositivo apagado" src="/img/circuito.png" style="width : 600px;">
