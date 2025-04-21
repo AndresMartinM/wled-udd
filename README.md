@@ -1,7 +1,7 @@
 # Proyecto Iluminación WLED
 Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacios y objetos de la Universidad del Desarrollo.
 
-<img title="fotocircuitoOn" alt="foto del dispositivo encendido" src="/img/circuitoOn.png" style="width : 600px;">
+<img title="fotocircuitoOn" alt="foto del dispositivo encendido" src="/img/circuitoOn.jpeg" style="width : 600px;">
 
 ### Materiales necesarios
 
@@ -163,7 +163,7 @@ Para configurar acciones temporales hay que ir al menú de ***Time & Macros***.
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
-<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="400px">
+<img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.jpeg" width="400px">
 
 <!--
 #### Time & Macros - Reloj
