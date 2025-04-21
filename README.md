@@ -155,7 +155,7 @@ Más abajo, casi al final están las configuraciones de transición y de tempori
 
 <img title="ledConfig3" alt="opciones de tiras led" src="/img/ledConfig3.png" width="400px">
 
-### Configurar acciones temporales
+### Configurar Acciones Temporales
 #### Time & Macros - Opciones de uso horario
 En esta sección se puede escoger el servidor desde el que se consulta la hora actual, 
 
@@ -182,7 +182,7 @@ En esta sección se pueden dejar programadas acciones para que ocurran en una ho
 
 <img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
-### Configurar acciones personalizadas
+### Configurar Acciones Personalizadas
 
 #### Usermods - Audioreactive
 TODO
