@@ -161,6 +161,7 @@ En esta sección se puede escoger el servidor desde el que se consulta la hora a
 
 <img title="timeHora" alt="opciones de uso horario" src="/img/timeHora.png" width="400px">
 
+<!--
 #### Time & Macros - Reloj
 TODO
 
@@ -168,15 +169,16 @@ TODO
 
 #### Time & Macros - Macro
 TODO
-<img title="timeMacro" alt="opciones de macro" src="/img/timeMacro.png" width="400px">
 
+<img title="timeMacro" alt="opciones de macro" src="/img/timeMacro.png" width="400px">
+-->
 #### Time & Macros - Botones
 Aquí se pueden configurar los comportamientos de las distintas interacciones con los 4 diferentes botones/sensores, para cada uno hay 3 posibles interacciones, presionar (*short*), mantener presionado (*long*), y presionar 2 veces (*double*). Esto se organiza en una tabla en la que se cruza botón con interacción, en las intersecciones de esto se escribe ID del preset que se quisiera activar; por ejemplo en si se quisiera activar el preset con el ID 102 al presionar el segundo botón una sola vez, se escribiría 102 en la intersección de ***Button 1*** y ***short on->off***.
 
 <img title="timeBoton" alt="opciones de comportamiento de los botones" src="/img/timeBoton.png" width="400px">
 
 #### Time & Macros - Acciones programadas
-TODO
+En esta sección se pueden dejar programadas acciones para que ocurran en una hora en específico, esto se hace escribiendo una hora y minuto en la casilla correspondiente, y escribiendo un ID de *preset* en la fila de la hora en la que se quiere que ocurra.
 
 <img title="timePresets" alt="opciones de las acciones programadas" src="/img/timePresets.png" width="400px">
 
