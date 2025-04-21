@@ -81,7 +81,7 @@ El resto es configurar el funcionamiento de este sensor, desde la interfaz de wl
 * configurar las conexiones en *LED Preferences* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#led-preferences---botones)
 * configurar las funciones de interacción en *Time & Macros* [🔗](https://github.com/AndresMartinM/wled-udd?tab=readme-ov-file#time--macros---botones)
 
-### Sensor de ruido
+### Sensor de ruido / micrófono
 TODO
 
 
