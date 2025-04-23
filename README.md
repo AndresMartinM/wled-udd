@@ -19,8 +19,6 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 * Cables duPont
 * Protoboard
 
-
-
 ____________________
 
 ## Proceso de Instalación en ESP32
