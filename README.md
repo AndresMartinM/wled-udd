@@ -3,7 +3,7 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 
 <img title="fotocircuitoOn" alt="foto del dispositivo encendido" src="/img/circuitoOn.jpeg" style="width : 600px;">
 
-### Materiales necesarios
+### Materiales necesarios para el proyecto
 
 * Esp32 devkit
 * Fuente de poder 5v
@@ -21,7 +21,7 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 
 ____________________
 
-## Proceso de Instalación
+## Proceso de Instalación en ESP32
 Primero se debe conectar la placa Esp32 vía USB al computador. En un navegador compatible se abre la página para instalar el código en la placa ([instalador web](https://install.wled.me/)).
 
 Navegador no compatible:
@@ -46,7 +46,7 @@ Se Presiona el botón conectar, tras esto va a aparecer una ventana de carga que
 </div>  
 
 
-Luego mostrará el porcentaje de la instalación, se debe esperar en la página que ocurra este proceso, y al final aparece el mensaje de instalación completa; se presiona ***Next*** y a continuación se debe realizar la configuración de red, se selecciona el nombre de la red o se escribe si no aparece, y se ingresa la contraseña.
+Luego mostrará el porcentaje de la instalación, se debe esperar en la página que ocurra este proceso, y al final aparece el mensaje de instalación completa; se presiona ***Next*** y a continuación se debe realizar la configuración de red, se selecciona el nombre de la red o se escribe si no aparece, y se ingresa la contraseña adecuada.
 
 <div alt="sección de imágenes" style="display: inline-block;">
 <img title="seleccionarRed" alt="pestaña de selección de red" src="/img/seleccionarRed.png" height="200px">
