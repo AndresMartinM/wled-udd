@@ -3,6 +3,7 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 
 <img title="fotocircuitoOn" alt="foto del dispositivo encendido" src="/img/circuitoOn.jpeg" style="width : 600px;">
 
+
 ### Materiales necesarios
 
 * Esp32 devkit
