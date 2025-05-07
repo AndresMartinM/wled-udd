@@ -6,8 +6,8 @@ Instructivo sobre la utilización de WLED para estudiantes de Diseño de espacio
 ### Materiales necesarios para el proyecto
 
 * Esp32 devkit
-* Fuente de poder 5v
-* Tira led 5v compatible ([listado de tiras compatibles](https://kno.wled.ge/basics/compatible-led-strips/))
+* Fuente de poder 12v
+* Tira led 5v/12v compatible ([listado de tiras compatibles](https://kno.wled.ge/basics/compatible-led-strips/))
 * Dispositivo de control (Celular o Computador)
 
 ### Materiales opcionales
@@ -61,7 +61,7 @@ A continuación se explica el armado del dispositivo.
 ___________________________________
 
 ## Proceso de Construcción
-Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión; y en el caso de ser necesaria más corriente para alimentar las tiras led tambien se deben ver las conexiones de la fuente de poder, salidas de voltaje (v+ - 5v) y la tierra (gnd - ⏚) TODO revisar esto cuando tengamos fuentes de poder
+Para armar este dispositivo, lo primero que hay que hacer es identificar los pines del Esp32, el pin de entrada de voltaje (VIN - 5v), el pin de salida de voltaje (3V3 - 3.3v), los pines de tierra (GND), y los pines de señal (D2, D3, D4... en adelante); por otro lado hay que identificar los cables de la tira led, que debe contar con: entrada de voltaje (5v/12v), tierra (GND), y señal digital entrada (Din) en la que se debe ver la dirección en la que apunta la flecha para luego realizar la conexión; en el caso de que la tira LED sea de un voltaje distinto a 5v o si con la alimentación del ESP32 no es suficiente, entoces hay que conectar una fuente de poder del voltaje de la tira led; en la fuente de poder al igual que en los otros elementos hay que identificar las salidas y entradas a usar, para la realización de esta documentación se usó una fuente de alimentación de 12 voltios (12V), 6 amperios (6A), y 75 vatios (75W) *FAP-75-12V-S*; dicha fuente cuenta con las conexiones para la corriente alterna 220v de la red eléctrica.
 
 La conexión entre la tira led y el Esp32 es mediante el cable de señal que debe conectar la entrada digital (Din) de la tira led con uno de los pines de señal del Esp32 (D2, D3, D4... en adelante) esto luego se debe configurar en la interfaz de wled, 5v y GND de la tira deben ir conectados o al VIN y GND del Esp32 o a lo correspondiente en la fuente de poder.
 
